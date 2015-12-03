@@ -21,7 +21,7 @@ colors.setTheme({
 });
 
 
-var FAY = {
+var Fay = {
     /**
      * Fetch a repo from GitHub, unzip it to a specific folder.
      *
@@ -31,8 +31,12 @@ var FAY = {
      * https://github.com/driftyco/ionic-cli
      */
 
+    run: function () {
+        console.log("init repo");
+    },
+
     // https://github.com/driftyco/ionic-cli/blob/ce33bcc26336538d86f16b2fcd400dfbce5c73a7/lib/ionic/templates.js
-    
+
     fetchRepo: function (targetPath, repoName, repoUrl) {
         var q = Q.defer();
 

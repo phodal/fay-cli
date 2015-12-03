@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+
+'use strict';
+
+process.title = 'ionic';
+
+var Fay = require('../lib/fay').Fay;
+
+Fay.run();
