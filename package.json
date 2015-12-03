@@ -1,0 +1,31 @@
+{
+  "name": "fay-cli",
+  "version": "0.0.0",
+  "description": "Fay Command Line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phodal/fay-cli.git"
+  },
+  "keywords": [
+    "fay",
+    "cms",
+    "static",
+    "cms"
+  ],
+  "author": "Phodal Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phodal/fay-cli/issues"
+  },
+  "homepage": "https://github.com/phodal/fay-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "q": "^1.4.1",
+    "request": "^2.67.0",
+    "unzip": "^0.1.11"
+  }
+}
