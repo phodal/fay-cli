@@ -1,6 +1,6 @@
 {
   "name": "fay-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Fay Command Line",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
